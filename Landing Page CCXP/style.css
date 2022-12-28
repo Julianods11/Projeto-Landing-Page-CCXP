@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: auto;
+    background-color: #FFD900;
+}
+header img{
+    width: 10%;
+    padding: 2%;
+}
+#textVideo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #514988;
+    color: white;
+}
+#text h1{
+    text-transform: uppercase;
+    font-size: 3.37rem;
+    line-height: 0.5rem;
+    color: #F3C61F;
+}
+#text h2{
+    text-transform: uppercase;
+    font-size: 1.87rem;
+    line-height: 0.5rem;
+}
+#text p{
+    font-size: 1.2rem;
+}
+.timer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #514988;
+    font-size: 2rem;
+    line-height: 0rem;
+}
+#timer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+#frase{
+    color: #E33881;
+    line-height: 0rem;
+}
+.titles{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.titles p{
+    font-size: 1.4rem;
+    margin-left: 0.1rem;
+}
+#arlequina{
+    padding: 1%;
+}
+#ing{
+    display: flex;
+    align-items: center;
+}
+#ing img{
+    width: 190px;
+}
+#title h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #F3C61F;
+}
+#ingressos{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+}
+#button{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button button{
+    width: 26rem;
+    height: 6rem;
+    border-radius: 15px;
+    border: 0;
+    background-color: #514988;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#button button:hover{
+    background-color: #7568be;
+    color: #f4f807;
+}
+@keyframes pulse{
+    from{
+        box-shadow: 0 0 25px #7568be, 0 0 50px #2cd9ff;
+    }
+}
+#button button:focus{
+    animation: pulse 1s ease-in-out;
+}
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
